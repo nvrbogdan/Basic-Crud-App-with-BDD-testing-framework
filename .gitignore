@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Maven generated directories
+/target/
+.mvn/
+# Specific to Maven Wrapper, but already covered by .mvn/ above, good to be explicit
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE Specific files
+.idea/             # IntelliJ IDEA project files
+*.iml              # IntelliJ IDEA module files
+*.iws
+*.ipr
+.project           # Eclipse .project file
+.classpath         # Eclipse .classpath file
+.settings/         # Eclipse .settings folder
+.vscode/           # Visual Studio Code settings
+
+# Operating System Files
+.DS_Store          # macOS system files
+Thumbs.db          # Windows thumbnail cache
+
+# Logs
+*.log
+logs/
+
+# Local configuration/secrets (if not handled by environment variables)
+# Be extremely careful with this. For public repos, sensitive data MUST be externalized.
+# application.properties # Only if it contains sensitive data and you manage it differently
+# application-test.properties # Only if it contains sensitive data and you manage it differently
+
+# Local development database files (if you switched to file-based H2 for inspection)
+*.mv.db
+*.trace.db
+
+# Spring Boot specific
+# The original artifact that is replaced by the repackaged jar
+*-SNAPSHOT.jar.original
+
+# Crash dumps by the JVM
+hs_err_pid*.log
